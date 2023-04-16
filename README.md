@@ -67,7 +67,9 @@ The project is to create a self-service checkout system for Andi's large superma
   
  </p>
 
-    A. Update Function: The 'update_item_name()', 'update_item_qty()', and 'update_item_price()' methods are used to update the name, quantity, and price of an item respectively. These functions take in the item name, quantity, and price as arguments, and update the corresponding attributes of the item.
+    A. Update Function: The 'update_item_name()', 'update_item_qty()', and 'update_item_price()' methods are used to 
+    update the name, quantity, and price of an item respectively. These functions take in the item name, quantity, 
+    and price as arguments, and update the corresponding attributes of the item.
 
         Definition : 
         - The 'init()' method is used to initialize an object of the class. In this method, we initialize the 'items' attribute as an empty list.
