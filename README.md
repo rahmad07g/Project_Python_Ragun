@@ -11,7 +11,8 @@
 
 By [Rahmad Gunawan](https://www.linkedin.com/in/ragunnn/)
 ## Dashboard
-[![Youtube Presentation]<img src="https://www.logo.wine/a/logo/YouTube/YouTube-Logo.wine.svg"] alt="Youtube Logo" width="100" height="100">
+<a href="https://www.youtube.com/"><img src="https://www.logo.wine/a/logo/YouTube/YouTube-Logo.wine.svg" alt="Youtube Logo" width="50" height="50"></a> Youtube Presentation
+
 
 **Super Cashier!** is a simple app system that allows customers to input purchased items, quantity, and price. Additionally, it offers other features like payment options and remote purchasing.
 
