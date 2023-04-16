@@ -58,7 +58,7 @@ The project is to create a self-service checkout system for Andi's large superma
       table exists. If it doesn't exist, we create the table with the same name.
 
  <p align="center">
-  <img src="Step_1.png" width=700 align="center">
+  <img src="JPEG/Step_1.png" width=700 align="center">
   
  </p>
 
@@ -68,7 +68,7 @@ The project is to create a self-service checkout system for Andi's large superma
   Create a class named Transaction to define all functions.
  </p>
  <p align="center">
-  <img src="Step_2.png" width=700 align="center">
+  <img src="JPEG/Step_2.png" width=700 align="center">
  </p>
 
     A. Update Function: The 'update_item_name()', 'update_item_qty()', and 'update_item_price()' methods are used 
@@ -88,7 +88,7 @@ The project is to create a self-service checkout system for Andi's large superma
  </p>
 
  <p align="center">
-  <img src="Step_3.png" width=700 align="center">
+  <img src="JPEG/Step_3.png" width=700 align="center">
  </p>
 
      B. Delete-Reset Function: The 'delete_item()' method is used to delete an item from the 'items' list, 
@@ -101,7 +101,7 @@ The project is to create a self-service checkout system for Andi's large superma
   Check-order/out Function
  </p>
  <p align="center">
-  <img src="Step_4.png" width=700 align="center">
+  <img src="JPEG/Step_4.png" width=700 align="center">
  </p>
 
     C. Check-order/out Function: 
@@ -115,7 +115,7 @@ The project is to create a self-service checkout system for Andi's large superma
   Print Transaction - Insert Table Function
  </p>
  <p align="center">
-  <img src="Step_5.png" width=700 align="center">
+  <img src="JPEG/Step_5.png" width=700 align="center">
  </p>
 
     D. Print Transaction Function and Insert to Table: The 'print_transaction()' method is used to print the 
@@ -129,7 +129,7 @@ The project is to create a self-service checkout system for Andi's large superma
   Output App
  </p>
  <p align="center">
-  <img src="Output4.png" width=500 align="center">
+  <img src="JPEG/Output4.png" width=500 align="center">
  </p>
  
       5. By using these functions, we can easily update, delete, check out, and print the transaction. To create a Transaction object, we can simply call the constructor: 'transaksi = Transaction()
@@ -151,7 +151,7 @@ The project is to create a self-service checkout system for Andi's large superma
   Input Item Orders , Qty and Price
  </p>
  <p align="center">
-  <img src="Output1.png" width=400 align="center">
+  <img src="JPEG/Output1.png" width=400 align="center">
  </p>
     
     If not, there will be a question whether you want to modify/delete the items. 
@@ -162,14 +162,14 @@ The project is to create a self-service checkout system for Andi's large superma
   Modify/Delete the items
  </p>
  <p align="center">
-  <img src="Output2.png" width=500 align="center">
+  <img src="JPEG/Output2.png" width=500 align="center">
  </p>
     
   <p align="center">
   The item/order has been updated or deleted.
  </p>
  <p align="center">
-  <img src="Output3.png" width=500 align="center">
+  <img src="JPEG/Output3.png" width=500 align="center">
  </p>
 
     After that, your order will be confirmed whether it is correct or not. If it is not correct, you can reset your order. 
@@ -179,7 +179,7 @@ The project is to create a self-service checkout system for Andi's large superma
   Final Output Print Transaction and the data will be saved to the database.
  </p>
  <p align="center">
-  <img src="Output4.png" width=500 align="center">
+  <img src="JPEG/Output4.png" width=500 align="center">
  </p>
 
     it will be checked whether the input format is correct or not. If it is correct, 
@@ -197,7 +197,7 @@ The project is to create a self-service checkout system for Andi's large superma
   Expected Output Test 1
  </p>
  <p align="center">
-  <img src="ExpectedOT1.png" width=400 align="center">
+  <img src="JPEG/ExpectedOT1.png" width=400 align="center">
  </p>
 
  
@@ -205,7 +205,7 @@ The project is to create a self-service checkout system for Andi's large superma
   Result Test 1 (Pass)
  </p>
  <p align="center">
-  <img src="Result1.png" width=400 align="center">
+  <img src="JPEG/Result1.png" width=400 align="center">
  </p>
     
 
@@ -217,14 +217,14 @@ The project is to create a self-service checkout system for Andi's large superma
   Expected Output Test 2
  </p>
  <p align="center">
-  <img src="ExpectedOT2.png" width=400 align="center">
+  <img src="JPEG/ExpectedOT2.png" width=400 align="center">
  </p>
 
   <p align="center">
   Result Test 2 (Pass)
  </p>
  <p align="center">
-  <img src="Result2.png" width=400 align="center">
+  <img src="JPEG/Result2.png" width=400 align="center">
  </p>
 
       Test 3
@@ -235,14 +235,14 @@ The project is to create a self-service checkout system for Andi's large superma
   Expected Output Test 3
  </p>
  <p align="center">
-  <img src="ExpectedOT3.png" width=400 align="center">
+  <img src="JPEG/ExpectedOT3.png" width=400 align="center">
  </p>
 
   <p align="center">
   Result Test 3 (Pass)
  </p>
  <p align="center">
-  <img src="Result3.png" width=400 align="center">
+  <img src="JPEG/Result3.png" width=400 align="center">
  </p>
 
       Test 4
@@ -253,14 +253,14 @@ The project is to create a self-service checkout system for Andi's large superma
   Expected Output Test 4
  </p>
  <p align="center">
-  <img src="ExpectedOT4.png" width=400 align="center">
+  <img src="JPEG/ExpectedOT4.png" width=400 align="center">
  </p>
 
   <p align="center">
   Result Test 4 (Pass)
  </p>
  <p align="center">
-  <img src="Result4.png" width=400 align="center">
+  <img src="JPEG/Result4.png" width=400 align="center">
  </p>
 
 ## Developed By
@@ -269,6 +269,6 @@ The project is to create a self-service checkout system for Andi's large superma
       This is the result of my work, but I believe there is still room for improvement in this project. If you have any suggestions or would like to connect with me, feel free to do so. I greatly appreciate you taking the time to review my work. Together, we can create something even better!
 
 <p align="center">
-  <img src="Thanks.jpg" width=400 align="center">
+  <img src="JPEG/Thanks.jpg" width=400 align="center">
   
 </p>
