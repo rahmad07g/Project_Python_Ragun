@@ -199,6 +199,14 @@ The project is to create a self-service checkout system for Andi's large superma
  <p align="center">
   <img src="ExpectedOT1.png" width=300 align="center">
  </p>
+
+ 
+  <p align="center">
+  Result Test 1 (Pass)
+ </p>
+ <p align="center">
+  <img src="Result1.png" width=300 align="center">
+ </p>
     
 
       Test 2
@@ -212,6 +220,13 @@ The project is to create a self-service checkout system for Andi's large superma
   <img src="ExpectedOT2.png" width=300 align="center">
  </p>
 
+  <p align="center">
+  Result Test 2 (Pass)
+ </p>
+ <p align="center">
+  <img src="Result2.png" width=300 align="center">
+ </p>
+
       Test 3
       - After further consideration, the Customer realizes that they have inputted the wrong items to be purchased! Instead of 
       - deleting them one by one, the Customer simply uses the reset_transaction() method to remove all the items that have been added."
@@ -223,6 +238,12 @@ The project is to create a self-service checkout system for Andi's large superma
   <img src="ExpectedOT3.png" width=300 align="center">
  </p>
 
+  <p align="center">
+  Result Test 3 (Pass)
+ </p>
+ <p align="center">
+  <img src="Result3.png" width=300 align="center">
+ </p>
 
       Test 4
       - After finishing the shopping, the Customer will calculate the total amount to be paid using the method check_out()
@@ -234,6 +255,14 @@ The project is to create a self-service checkout system for Andi's large superma
  <p align="center">
   <img src="ExpectedOT4.png" width=300 align="center">
  </p>
+
+  <p align="center">
+  Result Test 4 (Pass)
+ </p>
+ <p align="center">
+  <img src="Result4.png" width=300 align="center">
+ </p>
+
 1. [Rahmad Gunawan, Github (Link)](https://github.com/rahmad07g)
 
 <p align="center">
