@@ -4,7 +4,7 @@
 **This is a part or journey of the Pacmann bootcamp**
 
 <p align="center">
-  <img src="Header.png" width=800 align="center">
+  <img src="JPEG/Header.png" width=800 align="center">
 </p>
 <h1 align="center">Hi Mate👋, I am Rahmad Gunawan 
 from SDE Batch 01 Pacmann</h1>
@@ -264,11 +264,11 @@ The project is to create a self-service checkout system for Andi's large superma
  </p>
 
 ## Developed By
-1. [Rahmad Gunawan, Github (Link)](https://github.com/rahmad07g)
+1. [Rahmad Gunawan, Linkedin (Link)](https://www.linkedin.com/in/ragunnn/)
 
       This is the result of my work, but I believe there is still room for improvement in this project. If you have any suggestions or would like to connect with me, feel free to do so. I greatly appreciate you taking the time to review my work. Together, we can create something even better!
-      
+
 <p align="center">
-  <img src="Thanks.jpg" width=700 align="center">
+  <img src="Thanks.jpg" width=400 align="center">
   
 </p>
