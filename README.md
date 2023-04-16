@@ -4,7 +4,7 @@
 **This is a part or journey of the Pacmann bootcamp**
 
 <p align="center">
-  <img src="Header.jpg" width=800 align="center">
+  <img src="Header.png" width=800 align="center">
 </p>
 <h1 align="center">Hi Mate👋, I am Rahmad Gunawan from SDE Batch 01 Pacmann</h1>
 <h3 align="center">Python Project I </h3>
@@ -43,7 +43,7 @@ The project is to create a self-service checkout system for Andi's large superma
 
     1. The first step is to import two libraries: 'time' and 'sqlite3'.
 <p align="center">
-  <img src="Step-1.jpg" width=700 align="center">
+  <img src="Step_1.png" width=700 align="center">
   
 </p>
 
