@@ -13,7 +13,7 @@ from SDE Batch 01 Pacmann</h1>
 By [Rahmad Gunawan](https://www.linkedin.com/in/ragunnn/)
 ## Dashboard
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=your-video-id-here">
+  <a href="https://youtu.be/Uycz73DydLM">
     <img src="https://www.logo.wine/a/logo/YouTube/YouTube-Logo.wine.svg" alt="Youtube Logo" width="120" height="120">
     <br>
     <b>Youtube Presentation</b>
