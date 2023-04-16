@@ -162,12 +162,12 @@ def input_transaction():
     while True:
          # Meminta input untuk mengubah/hapus item atau tidak
         print("Apakah ada item yang ingin diubah/hapus? (y/n): ")
-        print("")
         ubah_hapus = input()
+        print("")
         while ubah_hapus.lower() not in ['y', 'n']:
             print("Input tidak valid, silakan masukkan y atau n")
-            print("")
             ubah_hapus = input("Apakah ada item yang ingin diubah/hapus? (y/n):")
+            print("")
 
         # Jika tidak ingin mengubah/hapus, keluar dari loop
         if ubah_hapus.lower() == 'n':
@@ -235,7 +235,7 @@ def input_transaction():
         reset = input("Apakah ingin mereset transaksi? (y/n): ")
         print("")
         while reset.lower() not in ['y', 'n']:
-            print("Input tidak valid. Harap masukkan 'y' atau 'n'.")
+            print("Input tidak valid. Harap masukkan 'y' atau 'n' ")
             print("")
             reset = input("Apakah ingin mereset transaksi? (y/n): ")
         if reset.lower() == 'y':
@@ -255,9 +255,11 @@ def input_transaction():
         print(order_check)
     else:
         # Check out dan masukkan ke database
+        print(order_check)
+        print("")
         harga_setelah_diskon = transaction.check_out()
         conn.cursor()
         transaction.insert_to_table()
-        print("Total harga setelah diskon: ", harga_setelah_diskon)
+        print(("Total harga setelah diskon: Rp."),harga_setelah_diskon)
     
 input_transaction()

@@ -30,21 +30,25 @@ The project is to create a self-service checkout system for Andi's large superma
 ---
     - Customer creates a transaction ID by creating an object from the "transaction()" function.
     - Customer inputs the name of the item, quantity, and price of the product by using the "add_item()" method.
-    - Customer can update the name, quantity, or price of an item using the "update_item_name()", "update_item_qty()", or "update_item_price()" methods.
+    - Customer can update the name, quantity, or price of an item using the "update_item_name()", "update_item_qty()", 
+    or "update_item_price()" methods.
     - Customer can delete an item using the "delete_item()" method.
     - Customer can reset the entire transaction by using the "reset_transaction()" method.
-    - Customer can check their order using the "check_order()" method, which will return a message indicating if there are any errors in the input data and output the purchased items.
-    - Customer can check the total cost of their purchase using the "check_out()" method, which will apply discounts based on the total price and save the transaction data into an SQLite database.
-    - The transaction data saved into the database will include the transaction ID, item name, quantity, price, total price, discount, and discounted price.
+    - Customer can check their order using the "check_order()" method, which will return a message indicating 
+    if there are any errors in the input data and output the purchased items.
+    - Customer can check the total cost of their purchase using the "check_out()" method, which will apply 
+    discounts based on the total price and save the transaction data into an SQLite database.
+    - The transaction data saved into the database will include the transaction ID, item name, quantity, price, 
+    total price, discount, and discounted price.
     - Additional features can be added as needed to improve the system.
 
  ## Here's how to use the program:
    
-    Download all Python files/modules into a local directory.
-    Open your terminal and navigate to the local directory.
-    Run the Python script by typing "python script.py" in the terminal.
-    Follow the prompts to input your order details.
-    Enjoy using the program!
+    - Download all Python files/modules into a local directory.
+    - Open your terminal and navigate to the local directory.
+    - Run the Python script by typing "python script.py" in the terminal.
+    - Follow the prompts to input your order details.
+    - Enjoy using the program!
 
  ## Program Flow
 
@@ -58,23 +62,21 @@ The project is to create a self-service checkout system for Andi's large superma
  </p>
 
     2. Next, we create a class called Transaction that contains several methods:
-     To simplify the Transaction class, we will divide its functions into four categories:
-
- <p align="center">
-  <img src="Step_2.png" width=700 align="center">
+     To simplify the Transaction class, we will divide its functions into four categories
  <p align="center">
   Create a class named Transaction to define all functions.
  </p>
-  
+ <p align="center">
+  <img src="Step_2.png" width=700 align="center">
  </p>
 
-    A. Update Function: The 'update_item_name()', 'update_item_qty()', and 'update_item_price()' methods are used to 
-    update the name, quantity, and price of an item respectively. These functions take in the item name, quantity, 
-    and price as arguments, and update the corresponding attributes of the item.
+    A. Update Function: The 'update_item_name()', 'update_item_qty()', and 'update_item_price()' methods are used 
+    to update the name, quantity, and price of an item respectively. These functions take in the item name, 
+    quantity, and price as arguments, and update the corresponding attributes of the item.
 
         Definition : 
         - The 'init()' method is used to initialize an object of the class. In this method, 
-        we initialize the 'items' attribute as an empty list.
+          we initialize the 'items' attribute as an empty list.
         - The 'add_item()' method is used to add an item to the 'items' list.
         - The 'update_item_name()' method is used to update the name of an item.
         - The 'update_item_qty()' method is used to update the quantity of an item.
@@ -86,10 +88,10 @@ The project is to create a self-service checkout system for Andi's large superma
 
  <p align="center">
   <img src="Step_3.png" width=700 align="center">
-  
  </p>
-    B. Delete-Reset Function: The 'delete_item()' method is used to delete an item from the 'items' list, 
-    and the 'reset_transaction()' method is used to reset the transaction by clearing the 'items' list.
+
+     B. Delete-Reset Function: The 'delete_item()' method is used to delete an item from the 'items' list, 
+      and the 'reset_transaction()' method is used to reset the transaction by clearing the 'items' list.
 
         - The 'delete_item()' method is used to delete an item from the 'items' list.
         - The 'reset_transaction()' method is used to reset the transaction by clearing the 'items' list.
@@ -109,7 +111,7 @@ The project is to create a self-service checkout system for Andi's large superma
          A discount is given if the total price is greater than 200000, 300000, or 500000.
 
  <p align="center">
-  Check-order/out Function
+  Print Transaction - Insert Table Function
  </p>
  <p align="center">
   <img src="Step_5.png" width=700 align="center">
@@ -123,10 +125,10 @@ The project is to create a self-service checkout system for Andi's large superma
       In this method, each item that has been inputted will be saved to the 'transaction' table along with the quantity of the item, the item price, the total price, the discount, and the price after the discount.
 
  <p align="center">
-  Check-order/out Function
+  Output App
  </p>
  <p align="center">
-  <img src="Step_5.png" width=700 align="center">
+  <img src="Output1.png" width=500 align="center">
  </p>
  
  5. By using these functions, we can easily update, delete, check out, and print the transaction. To create a Transaction object, we can simply call the constructor: 'transaksi = Transaction()
@@ -137,25 +139,49 @@ The project is to create a self-service checkout system for Andi's large superma
     order, calculating the total price and discount, printing the transaction, and saving the transaction to the database.
 
 ## Outcome Project
----
-<p align="center">
-  <img src="Output1.png" width=700 align="center">
-  
-</p>
+    The output of the app is a transaction order that shows the list of items, quantities, prices, and the total price 
+    of the order after the discount has been applied.
 
-<p align="center">
-  Asset Recommendation Page
-</p>
+    The first step is to input the data related to the item name, quantity, and price. 
+    Then, there will be an option to add more items or not. If yes, you can add additional items. 
+    
+ <p align="center">
+  Output App
+ </p>
+ <p align="center">
+  <img src="Output1.png" width=500 align="center">
+ </p>
+    
+    If not, there will be a question whether you want to modify/delete the items. 
+    If you choose to modify/delete the items, you can input the item number and choose the option to delete the item, 
+    change the item name, quantity or price.
 
-<p align="center">
-  <img src="Output2.png" width=700 align="center">
-  
-</p>
+ <p align="center">
+  Output App
+ </p>
+ <p align="center">
+  <img src="Output2.png" width=500 align="center">
+ </p>
+    
+  <p align="center">
+  Output App
+ </p>
+ <p align="center">
+  <img src="Output3.png" width=500 align="center">
+ </p>
 
-<p align="center">
-  Asset Recommendation Page
-</p>
+    After that, your order will be confirmed whether it is correct or not. If it is not correct, you can reset your order. 
+    If it is correct, the next step is to print the transaction result. However, before printing the transaction, 
 
+  <p align="center">
+  Output App
+ </p>
+ <p align="center">
+  <img src="Output4.png" width=500 align="center">
+ </p>
+
+    it will be checked whether the input format is correct or not. If it is correct, 
+    it will print the message "order is correct" and print the transaction data along with the total price of the order.
 
 ## Test Case
 1. [Rahmad Gunawan, Github (Link)](https://github.com/rahmad07g)
