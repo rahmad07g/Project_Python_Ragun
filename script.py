@@ -1,6 +1,5 @@
 # import library
 
-import time ## mengimport library time
 import sqlite3
 
 # koneksi ke database sqlite

@@ -19,7 +19,8 @@ By [Rahmad Gunawan](https://www.linkedin.com/in/ragunnn/)
   </a>
 </p>
 
-**Super Cashier!** is a simple app system that allows customers to input purchased items, quantity, and price. Additionally, it offers other features like payment options and remote purchasing.
+<center><h2><b>Super Cashier!</b></h2></center>
+<p align="center">Super Cashier! is a simple app system that allows customers to input purchased items, quantity, and price. Additionally, it offers other features like payment options and remote purchasing.</p>
 
 ## Introduction
 
@@ -47,32 +48,60 @@ The project is to create a self-service checkout system for Andi's large superma
 
  ## Program Flow
 
-    1. The first step is to import two libraries: 'time' and 'sqlite3'.
+    1. The first step is to import libraries: 'sqlite3'.
+      Then, we establish a connection to a SQLite database called 'cashier.db' and check if the 'transaction' table exists. If it doesn't exist, we create the table with the same name.
+
 <p align="center">
   <img src="Step_1.png" width=700 align="center">
   
 </p>
 
+  2. Next, we create a class called Transaction that contains several methods:
+
 <p align="center">
-  Asset Recommendation Page
+  Create a class named Transaction to define all functions.
 </p>
 
-    Then, we establish a connection to a SQLite database called 'cashier.db' and check if the 'transaction' table exists. If it doesn't exist, we create the table with the same name.
-    Next, we create a class called Transaction that contains several methods:
-        The 'init()' method is used to initialize an object of the class. In this method, we initialize the 'items' attribute as an empty list.
-        The 'add_item()' method is used to add an item to the 'items' list.
-        The 'update_item_name()' method is used to update the name of an item.
-        The 'update_item_qty()' method is used to update the quantity of an item.
-        The 'update_item_price()' method is used to update the price of an item.
-        The 'delete_item()' method is used to delete an item from the 'items' list.
-        The 'reset_transaction()' method is used to reset the transaction by clearing the 'items' list.
-        The 'check_order()' method is used to check the order. If there is an error in the input data, it will return an error message. If there is no error, it will return a success message.
-        The 'check_out()' method is used to calculate the total price and discount given. The total price and discount are calculated based on the total price of the items that have been inputted. A discount is given if the total price is greater than 200000, 300000, or 500000.
-        The 'print_transaction()' method is used to print the transaction to the screen in a table format.
-        The 'insert_to_table()' method is used to save the transaction to the 'transaction' table in the SQLite database. In this method, each item that has been inputted will be saved to the 'transaction' table along with the quantity of the item, the item price, the total price, the discount, and the price after the discount.
-    After creating the Transaction class, we can initialize an object by calling the class constructor: 'transaksi = Transaction()'.
+<p align="center">
+  <img src="Step_2.png" width=700 align="center">
+  
+</p>
+To simplify the Transaction class, we will divide its functions into four categories:
+
+  A. Update Function: The 'update_item_name()', 'update_item_qty()', and 'update_item_price()' methods are used to update the name, quantity, and price of an item respectively. These functions take in the item name, quantity, and price as arguments, and update the corresponding attributes of the item.
+      Definition : 
+      - The 'init()' method is used to initialize an object of the class. In this method, we initialize the 'items' attribute as an empty list.
+      - The 'add_item()' method is used to add an item to the 'items' list.
+      - The 'update_item_name()' method is used to update the name of an item.
+      - The 'update_item_qty()' method is used to update the quantity of an item.
+      - The 'update_item_price()' method is used to update the price of an item.
+
+   B. Delete-Reset Function: The 'delete_item()' method is used to delete an item from the 'items' list, and the 'reset_transaction()' method is used to reset the transaction by clearing the 'items' list.
+
+<p align="center">
+  Delete - Reset - Function
+</p>
+
+<p align="center">
+  <img src="Step_3.png" width=700 align="center">
+  
+</p>
+        - The 'delete_item()' method is used to delete an item from the 'items' list.
+        - The 'reset_transaction()' method is used to reset the transaction by clearing the 'items' list.
+
+    C. Check-order/out Function: 
+        -  The 'check_order()' method is used to check the order. If there is an error in the input data, it will return an error message. If there is no error, it will return a success message.
+        - The 'check_out()' method is used to calculate the total price and discount given. The total price and discount are calculated based on the total price of the items that have been inputted. A discount is given if the total price is greater than 200000, 300000, or 500000.
+
+    D. Print Transaction Function and Insert to Table: The 'print_transaction()' method is used to print the transaction to the screen in a table format. It displays the item name, quantity, price, total price, discount, and price after discount for each item in the transaction.
+      - The 'print_transaction()' method is used to print the transaction to the screen in a table format.
+      - The 'insert_to_table()' method is used to save the transaction to the 'transaction' table in the SQLite database. In this method, each item that has been inputted will be saved to the 'transaction' table along with the quantity of the item, the item price, the total price, the discount, and the price after the discount.
+
+By using these functions, we can easily update, delete, check out, and print the transaction. To create a Transaction object, we can simply call the constructor: 'transaksi = Transaction()
+
+    After creating the Transaction class, we can initialize an object by calling the class constructor: 'transaksi = Transaction()'. 
     We can then perform various operations on the 'transaksi' object, such as adding an item, updating the name of an item, updating the quantity of an item, updating the price of an item, deleting an item, resetting the transaction, checking the order, calculating the total price and discount, printing the transaction, and saving the transaction to the database.
-  Here's how to use the program:
+
 ---
 <p align="center">
   <img src="Rekomendasi-Aset.jpg" width=700 align="center">
