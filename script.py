@@ -263,3 +263,17 @@ def input_transaction():
         print(("Total harga setelah diskon: Rp."),harga_setelah_diskon)
     
 input_transaction()
+
+## Uncomment jika ingin memprint data yang tersimpan didatabase
+# conn = sqlite3.connect('cashier.db')
+# cursor = conn.cursor()
+# # Execute SELECT statement
+# cursor.execute("SELECT * FROM 'transaction'")
+# # Retrieve data
+# data = cursor.fetchall()
+# # Print data
+# for row in data:
+#     print(row)
+# # Close cursor and connection
+# cursor.close()
+# conn.close()

@@ -6,7 +6,8 @@
 <p align="center">
   <img src="Header.png" width=800 align="center">
 </p>
-<h1 align="center">Hi Mate👋, I am Rahmad Gunawan from SDE Batch 01 Pacmann</h1>
+<h1 align="center">Hi Mate👋, I am Rahmad Gunawan 
+from SDE Batch 01 Pacmann</h1>
 <h3 align="center">Python Project I </h3>
 
 By [Rahmad Gunawan](https://www.linkedin.com/in/ragunnn/)
@@ -128,15 +129,16 @@ The project is to create a self-service checkout system for Andi's large superma
   Output App
  </p>
  <p align="center">
-  <img src="Output1.png" width=500 align="center">
+  <img src="Output4.png" width=500 align="center">
  </p>
  
- 5. By using these functions, we can easily update, delete, check out, and print the transaction. To create a Transaction object, we can simply call the constructor: 'transaksi = Transaction()
+      5. By using these functions, we can easily update, delete, check out, and print the transaction. To create a Transaction object, we can simply call the constructor: 'transaksi = Transaction()
 
-    After creating the Transaction class, we can initialize an object by calling the class constructor: 'transaksi = Transaction()'. 
-    We can then perform various operations on the 'transaksi' object, such as adding an item, updating the name of an item, 
-    updating the quantity of an item, updating the price of an item, deleting an item, resetting the transaction, checking the 
-    order, calculating the total price and discount, printing the transaction, and saving the transaction to the database.
+      After creating the Transaction class, we can initialize an object by calling the class constructor: 
+      'transaksi = Transaction()'. 
+      We can then perform various operations on the 'transaksi' object, such as adding an item, updating the name of an item, 
+      updating the quantity of an item, updating the price of an item, deleting an item, resetting the transaction, checking the 
+      order, calculating the total price and discount, printing the transaction, and saving the transaction to the database.
 
 ## Outcome Project
     The output of the app is a transaction order that shows the list of items, quantities, prices, and the total price 
@@ -146,10 +148,10 @@ The project is to create a self-service checkout system for Andi's large superma
     Then, there will be an option to add more items or not. If yes, you can add additional items. 
     
  <p align="center">
-  Output App
+  Input Item Orders , Qty and Price
  </p>
  <p align="center">
-  <img src="Output1.png" width=500 align="center">
+  <img src="Output1.png" width=400 align="center">
  </p>
     
     If not, there will be a question whether you want to modify/delete the items. 
@@ -157,14 +159,14 @@ The project is to create a self-service checkout system for Andi's large superma
     change the item name, quantity or price.
 
  <p align="center">
-  Output App
+  Modify/Delete the items
  </p>
  <p align="center">
   <img src="Output2.png" width=500 align="center">
  </p>
     
   <p align="center">
-  Output App
+  The item/order has been updated or deleted.
  </p>
  <p align="center">
   <img src="Output3.png" width=500 align="center">
@@ -174,7 +176,7 @@ The project is to create a self-service checkout system for Andi's large superma
     If it is correct, the next step is to print the transaction result. However, before printing the transaction, 
 
   <p align="center">
-  Output App
+  Final Output Print Transaction and the data will be saved to the database.
  </p>
  <p align="center">
   <img src="Output4.png" width=500 align="center">
@@ -184,6 +186,54 @@ The project is to create a self-service checkout system for Andi's large superma
     it will print the message "order is correct" and print the transaction data along with the total price of the order.
 
 ## Test Case
+      In this stage, the app will be tested to generate output that meets the given requirements.
+      
+      Test 1
+      - "Customers want to add two new items using the add_item() method. The items to be added are as follows:
+      - Item Name: Fried Chicken, Qty: 2, Price: 20000
+      - Item Name: Toothpaste, Qty: 3, Price: 15000"
+
+  <p align="center">
+  Expected Output Test 1
+ </p>
+ <p align="center">
+  <img src="ExpectedOT1.png" width=300 align="center">
+ </p>
+    
+
+      Test 2
+      - Turns out the Customer made a mistake in purchasing one of the items from the added items, so the 
+      - Customer uses the delete_item() method to remove the item. The item that the Customer wants to remove is Pasta Gigi.
+
+  <p align="center">
+  Expected Output Test 2
+ </p>
+ <p align="center">
+  <img src="ExpectedOT2.png" width=300 align="center">
+ </p>
+
+      Test 3
+      - After further consideration, the Customer realizes that they have inputted the wrong items to be purchased! Instead of 
+      - deleting them one by one, the Customer simply uses the reset_transaction() method to remove all the items that have been added."
+
+  <p align="center">
+  Expected Output Test 3
+ </p>
+ <p align="center">
+  <img src="ExpectedOT3.png" width=300 align="center">
+ </p>
+
+
+      Test 4
+      - After finishing the shopping, the Customer will calculate the total amount to be paid using the method check_out()
+      - Before displaying the total amount, the items purchased will be displayed.
+
+  <p align="center">
+  Expected Output Test 4
+ </p>
+ <p align="center">
+  <img src="ExpectedOT4.png" width=300 align="center">
+ </p>
 1. [Rahmad Gunawan, Github (Link)](https://github.com/rahmad07g)
 
 <p align="center">
