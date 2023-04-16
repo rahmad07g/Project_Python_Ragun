@@ -53,6 +53,11 @@ The project is to create a self-service checkout system for Andi's large superma
 
  ## Program Flow
 
+  <p align="center">
+  <img src="JPEG/Flowchart.png" width=700 align="center">
+  
+ </p>
+
     1. The first step is to import libraries: 'sqlite3'.
       Then, we establish a connection to a SQLite database called 'cashier.db' and check if the 'transaction' 
       table exists. If it doesn't exist, we create the table with the same name.
