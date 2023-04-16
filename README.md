@@ -197,7 +197,7 @@ The project is to create a self-service checkout system for Andi's large superma
   Expected Output Test 1
  </p>
  <p align="center">
-  <img src="ExpectedOT1.png" width=300 align="center">
+  <img src="ExpectedOT1.png" width=400 align="center">
  </p>
 
  
@@ -205,7 +205,7 @@ The project is to create a self-service checkout system for Andi's large superma
   Result Test 1 (Pass)
  </p>
  <p align="center">
-  <img src="Result1.png" width=300 align="center">
+  <img src="Result1.png" width=400 align="center">
  </p>
     
 
@@ -217,14 +217,14 @@ The project is to create a self-service checkout system for Andi's large superma
   Expected Output Test 2
  </p>
  <p align="center">
-  <img src="ExpectedOT2.png" width=300 align="center">
+  <img src="ExpectedOT2.png" width=400 align="center">
  </p>
 
   <p align="center">
   Result Test 2 (Pass)
  </p>
  <p align="center">
-  <img src="Result2.png" width=300 align="center">
+  <img src="Result2.png" width=400 align="center">
  </p>
 
       Test 3
@@ -235,14 +235,14 @@ The project is to create a self-service checkout system for Andi's large superma
   Expected Output Test 3
  </p>
  <p align="center">
-  <img src="ExpectedOT3.png" width=300 align="center">
+  <img src="ExpectedOT3.png" width=400 align="center">
  </p>
 
   <p align="center">
   Result Test 3 (Pass)
  </p>
  <p align="center">
-  <img src="Result3.png" width=300 align="center">
+  <img src="Result3.png" width=400 align="center">
  </p>
 
       Test 4
@@ -253,23 +253,21 @@ The project is to create a self-service checkout system for Andi's large superma
   Expected Output Test 4
  </p>
  <p align="center">
-  <img src="ExpectedOT4.png" width=300 align="center">
+  <img src="ExpectedOT4.png" width=400 align="center">
  </p>
 
   <p align="center">
   Result Test 4 (Pass)
  </p>
  <p align="center">
-  <img src="Result4.png" width=300 align="center">
+  <img src="Result4.png" width=400 align="center">
  </p>
 
+## Developed By
 1. [Rahmad Gunawan, Github (Link)](https://github.com/rahmad07g)
 
-<p align="center">
-  <img src="Created.jpg" width=700 align="center">
-  
-</p>
-
+      This is the result of my work, but I believe there is still room for improvement in this project. If you have any suggestions or would like to connect with me, feel free to do so. I greatly appreciate you taking the time to review my work. Together, we can create something even better!
+      
 <p align="center">
   <img src="Thanks.jpg" width=700 align="center">
   
